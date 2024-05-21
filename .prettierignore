@@ -1,0 +1,14 @@
+# .prettierignore
+node_modules/
+dist/
+*.min.js
+.next/
+next.config.mjs
+next.config.cjs
+next.config.js
+next.config.ts
+package-lock.json
+yarn.lock
+package.json
+tsconfig.json
+Readme.md

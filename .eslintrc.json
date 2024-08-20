@@ -21,6 +21,24 @@
     "no-console": "warn",
     "no-var": "error",
     "no-unused-vars": "error",
-    "prefer-const": "error"
+    "prefer-const": "error",
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["../*"],
+            "message": "Please use absolute imports"
+          }
+        ]
+      }
+    ],
+    "@typescript-eslint/padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "block-like" },
+      { "blankLine": "always", "prev": "block-like", "next": "*" },
+      { "blankLine": "always", "prev": "*", "next": "function" },
+      { "blankLine": "always", "prev": "function", "next": "*" }
+    ]
   }
 }

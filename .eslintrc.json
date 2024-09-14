@@ -32,13 +32,6 @@
           }
         ]
       }
-    ],
-    "@typescript-eslint/padding-line-between-statements": [
-      "error",
-      { "blankLine": "always", "prev": "*", "next": "block-like" },
-      { "blankLine": "always", "prev": "block-like", "next": "*" },
-      { "blankLine": "always", "prev": "*", "next": "function" },
-      { "blankLine": "always", "prev": "function", "next": "*" }
     ]
   }
 }

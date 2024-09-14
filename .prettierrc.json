@@ -6,6 +6,6 @@
   "tabWidth": 2,
   "plugins": ["prettier-plugin-tailwindcss"],
   "tailwindConfig": "./tailwind.config.ts",
-  "tailwindAttributes": ["className"],
-  "tailwindFunctions": ["clsx"]
+  "tailwindAttributes": ["className", "class"],
+  "tailwindFunctions": ["clsx", "cn", "tw", "cva"]
 }

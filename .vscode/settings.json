@@ -11,7 +11,7 @@
   ],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[shellscript]": {
-    "editor.defaultFormatter": "shakram02.bash-beautify"
-  }
+  "cSpell.words": ["navigations", "toploader"],
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "tailwindCSS.experimental.classRegex": ["cn\\(([^)]*)\\)", "cva\\(([^)]*)\\)"]
 }

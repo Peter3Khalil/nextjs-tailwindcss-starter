@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "dev": "set NODE_ENV=development && next dev -p 7000",
-    "build": "set NODE_ENV=production && next build",
-    "start": "set NODE_ENV=production && next start -p 7000",
+    "dev": "next dev -p 7000",
+    "build": "next build",
+    "start": "next start -p 7000",
     "lint:fix": "eslint src --fix",
     "lint": "eslint src",
     "format": "prettier --write .",

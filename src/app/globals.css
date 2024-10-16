@@ -48,6 +48,15 @@
     --ring: 35.5 91.7% 32.9%;
   }
 }
+
+:lang(en) {
+  direction: ltr;
+}
+
+:lang(ar) {
+  direction: rtl;
+}
+
 html {
   font-size: 16px;
 }

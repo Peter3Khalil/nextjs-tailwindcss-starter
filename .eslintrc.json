@@ -14,14 +14,18 @@
     "prettier",
     "next/core-web-vitals",
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
   ],
-  "plugins": ["prettier", "@typescript-eslint"],
+  "plugins": ["prettier", "@typescript-eslint", "react"],
   "rules": {
     "no-console": "warn",
     "no-var": "error",
     "no-unused-vars": "error",
     "prefer-const": "error",
+    "react/no-unknown-property": "error",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
     "no-restricted-imports": [
       "error",
       {

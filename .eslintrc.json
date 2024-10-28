@@ -15,7 +15,8 @@
     "next/core-web-vitals",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:tailwindcss/recommended"
   ],
   "plugins": ["prettier", "@typescript-eslint", "react"],
   "rules": {
@@ -26,6 +27,7 @@
     "react/no-unknown-property": "error",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "tailwindcss/no-custom-classname": "off",
     "no-restricted-imports": [
       "error",
       {
